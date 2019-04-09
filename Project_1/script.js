@@ -1,4 +1,4 @@
-let num = 50;
+//let num = 50;
 
 if (num < 49) {
     console.log("Не верно");
@@ -28,6 +28,51 @@ switch (num) {
     break;
 }
 
+// let num = 50;
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+// }
+//
+let num = 50;
+do {
+    console.log(num);
+    num++;
+}
+while (num < 55 );
+
+for (let i = 0; i < 8; i++)
+{
+    if (i == 6) {
+        continue;
+    }
+    console.log(i);
+}
+
+
+let x = 5; 
+console.log( x++ );
+
+let y = 1; 
+let x = y = 2; 
+console.log(x);
+
+console.log( "1"[0] );
+
+console.log( [ ] + 1 + 2 );
+
+console.log( 2 && 1 && null && 0 && undefined );
+ 
+console.log( null || 2 && 3 || 4 ); //3
+ 
+
+console.log( +"Infinity" ); //Infinity
+
+console.log( 0 || "" || 2 || undefined || true || falsе ); //2
+
+let a = [1, 2, 3]; 
+let b = [1, 2, 3];
+console.log(a == b);
 
 
 
